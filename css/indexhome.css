@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item{
+    width: 95%;
+    height: 40px;
+
+
+}
+.l1{
+    padding-right: 1pc;
+    margin: 0 10px;
+    float: left;
+    text-align: left;
+}
+div.scrollmenu{
+    background-color: #ffffff;
+    overflow: auto;
+    width: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+div.scrollmenu a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 60%;
+    background-color: #333;
+    border-radius: 50px;
+
+}
+div.scrollmenu a:hover{
+    background-color: #777;
+    border-radius: 50px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    
+}
+div.scrollmen{
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+}
+div.scrollmen a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 60%;
+}
+div.scrollmen a:hover{
+    
+    border-radius: 8px;
+}
+
+
+.{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+.search,.menu{
+    margin: 10px;
+}
+
+.list1{
+    background-color: ;
+}
+
+span{
+    color: #ffffff;
+}
+
+.col-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+.left,.right{
+    margin: 10px;
+}
+
+span.left{
+    text-shadow: 2px 2px 2px rgb(0,0,0,0.6);
+}
+
+.header{
+    position: sticky;
+    top: 0;
+
+}
+
+div.nav1,.nav2,.nav3{
+    padding: 0 12%;
+    text-align: center;
+
+
+}
+span.nav1,.nav2,.nav3{
+    color: #ffffff
+    border:solid 2px white;
+}
+.as{
+    font-size: 60%;
+}
+.down{
+    margin-top: 10px;
+}
+.logo{
+    margin: 10px;
+    padding: 0;
+}
+
+/*
+.picture:hover{
+    opacity: 0.7;
+
+}
+.picture span:hover{
+    opacity: 1;
+}
+*/
+.no-gutters{
+}
+
+.col{
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.position-sticky{
+    position: fixed;
+    top: 0;
+}
+.nav-item{
+    width: 33.3%;
+    text-align-last: center;
+    padding: 8px;
+}
+span.star{
+    margin: 10px 0 10px 10px;
+}
+.edit1{
+    background-color: #CB4335;
+    width: 100%;
+}
+.aw{
+    margin-top: 100px;
+}
+.col-xl{
+    height: 100%;
+}
+.col-xl{
+    position: relative;
+    width: 100%;
+
+}
+.l1{
+    float: left;
+}
+.l1{
+    padding: 0;
+}
+.nav-item{
+background-position: center;
+transition: background 0.5s;
+}
+.nav-item:hover {
+background: #343a40 radial-gradient(circle, transparent 1%, #343a40 1%) center/15000%;
+
+}
+.nav-item:active {
+background-color: #6eb9f7;
+background-size: 100%;
+transition: background 0s;
+}
+
+a{
+background-position: center;
+transition: background 0.5s;
+}
+a:hover {
+background: #343a40 radial-gradient(circle, transparent 1%, #343a40 1%) center/15000%;
+
+}
+a:active {
+background-color: #6eb9f7;
+background-size: 100%;
+transition: background 0s;
+}
+
+.col{
+
+}
+/*
+.picture{
+background-position: center;
+transition: background 0.5s;
+}
+.picture:hover {
+background: #343a40 radial-gradient(circle, transparent 1%, #343a40 1%) center/15000%;
+
+}
+.picture:active {
+background-color: #6eb9f7;
+background-size: 100%;
+transition: background 0s;
+}
+
+.picture{
+    opacity: 1;
+    display: block;
+    width: 1005
+    height: auto;
+    transition:  .5s ease;
+.col-xl{
+    position: relative;
+    width: 50%;
+}
+.picture{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}   
+    
+}
+.middle{
+    transition:  .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.col-xl:hover .picture{
+    opacity: 0.7;
+}
+.col-xl:hover .middle{
+    opacity: 1;
+
+}
+
+.col-xl:hover .text{
+    background-color: #4caf50;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 16px 32px;
+    opacity: 1;
+}
+*/

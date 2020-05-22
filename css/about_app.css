@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+img.logo{
+	width: 50px;
+	height: 50px;
+}
+span.name{
+	padding: .5rem 1rem;
+	font-size: .73rem;
+	font-weight: bold;
+
+
+}
+
+div.authors{
+	border-radius: 8px;
+	margin: 10px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+span.col1{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 10px;
+
+
+}
+div.pabuhat,.bumuhat, hr{
+	padding: 0;
+	margin: 0;
+	border:;
+	width: 100%;
+	height: auto;
+}
+span.cc{
+	width: 10%;
+}
+span.cc1{
+	width: 40%;
+}
+.container{
+	font-size: 12px;
+}
+
+@media (min-width: 320px) {
+  .container, .container-sm {
+    max-width: 540px;
+    font-size: 11px;
+ }
+}
+
+@media (min-width: 375px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 4252px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+    font-size: 15px;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}

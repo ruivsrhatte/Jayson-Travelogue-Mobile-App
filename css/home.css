@@ -1,0 +1,164 @@
+	.header{
+      background-color: blue;
+      justify-content: space-between;
+
+}
+/* Portrait layout (default) */
+.app {
+    background:url(../img/background/wheregoodthinghappen2.png) no-repeat center top; /* 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    background-size: 80%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+    body{
+        margin: 0;
+        padding: 0;
+        font-size: 160%;
+        width: 100%;
+    }
+    span{
+        color: #ffffff;
+    }
+    .name{
+
+    }
+    .{
+        float: left;
+    }
+    .content1{
+      background-color: orange;
+    }
+    .dp{
+        width: 20%;
+        height: 20%;
+        border-radius: 20%;
+    }
+    .content1.content1-left{
+      float: left;
+    }
+    div.scrollmenu{
+      background-color: #ffffff;
+      overflow: auto;
+      white-space: nowrap;
+      padding: 10px;
+
+    }
+    div.scrollmenu a{
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      text-decoration: none;
+      font-size: 130%;
+      background-color: #333;
+      border-radius: 50px;
+
+    }
+    div.scrollmenu a:hover{
+      background-color: #777;
+      border-radius: 50px;
+    }
+
+    div.scrollmenua{
+      background-color: #ffffff;
+      overflow: auto;
+      white-space: nowrap;
+      padding: 10px;
+
+    }
+    div.scrollmenuaa col-a{
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+
+    }
+    div.scrollmenua col-a:hover{
+      background-color: #777;
+    }
+    .aa{
+      margin: 10%;
+    }
+    b.left{
+      float:left;
+      padding-left: 20px;
+    }
+    b.right{
+      float: right;
+      padding-right: 20px;
+    }
+    .dracon{
+      padding: 1.5rem;
+
+    }
+    .aq{
+      display: inline-block;
+      font-size: 150%;
+
+    }
+    .content-main{
+      padding-top: 10px;
+    }
+    .aw{
+      display: inline-block;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 10%;
+    }
+    .ae{
+      height: 70%;
+      width: 100%
+    }
+    .ar{
+      display: flex;
+      justify-content: space-between;
+      height: 10%;
+    }
+    .az{
+      padding: 1.5rem;
+    }
+    .ax{
+      justify-content: space-between;
+      display: flex;
+    }
+    .Picture1{
+
+      width: 100%;
+      height: 100%;
+    }
+    .col-1{
+      width: 70%;
+      height: 400px;
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px;
+
+    }
+    ul{
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	width: 100%;
+    	overflow: hidden;
+    }
+    li a{
+    	display: block;
+    	color: #ffffff;
+    	text-decoration:none;
+    	display: inline;
+    	text-align: center;
+
+    }
+    li{
+    	float: left;
+
+    }

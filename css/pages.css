@@ -1,0 +1,136 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+div.scrollmenu{
+    background-color: #ffffff;
+    overflow: auto;
+    width: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+div.scrollmenu a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 60%;
+    background-color: #333;
+    border-radius: 50px;
+}
+div.scrollmenu a:hover{
+
+    border-radius: 50px;
+}
+div.pic1{
+	width: 10%;
+	height: 50%;
+	max-height: auto;
+}
+.p1{
+	color: transparent;
+}
+
+
+
+            #myImg:hover {
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
+
+            }
+            #myImg:hover { opacity: 0.7; }
+            /* the Modal (background) */
+            .modal{
+                display: none;  
+                /* hiddes by default */
+                position: fixed;
+                /* stay in place*/
+                z-index: 1; 
+                /* sit on top */
+                padding-top: 100px;
+                /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%; 
+                /* Full width*/
+                height: 100%;
+                /* Full height*/
+                overflow: auto;
+                /* Enable scroll if needed */
+                background-color: rgb(0,0,0);
+                /* Fallback color*/
+                background-color: rgba(0,0,0,0.9);
+                /*black w/ opacity*/
+            }
+            /* Modal Content (image)*/
+            .modal-content{
+
+            }
+            /* Caption of Modal Image*/
+            #caption{
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 700px;
+                text-align: center;
+                color: #ccc;
+                padding: 10px 0;
+                height: 150px;
+            }
+            /* Add Animation*/
+            .modal-content, #caption{
+                animation-name: zoom;
+                animation-duration: 0.6s;
+            }
+
+            @keyframes zoom{
+                from{transform: scale(0.1)}
+                to {transform: scale(1)}
+            }
+            /* The Close Button*/
+            .close{
+                position: absolute;
+                top: 15px;
+                right: 35px;
+                color: #f1f1f1 ;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+
+            }
+
+            .close:hover,.close:focus{
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            /* 100% Image Width on Smaller Screens */
+            @media only screen and (max-width: 700px){
+                .modal-content{
+                    width: 100%;
+                }
+            }
+
+img:hover{
+    opacity: .75;
+}
+
+.img1{
+    background-image: url('/img/photos/mt._masaraga/FB_IMG_1586508334483.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    padding: 1rem;
+}
+
+.start-1{
+    border-radius: 50%;
+    background-color: orange;
+    width: 20%;
+}

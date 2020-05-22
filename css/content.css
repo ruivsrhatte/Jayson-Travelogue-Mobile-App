@@ -1,0 +1,36 @@
+/*content css3*/
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #c3c3c3;
+	width: 100%;
+}
+
+.nav-edit1{
+	background-color: #CB4335;
+	width: 100%;
+}
+.text{
+	color: #ffffff;
+	padding-top: 90px;
+	font-weight: bold;
+
+}
+.s1{
+	width: 50%;
+	text-align: center;
+
+}
+.s2{
+	width: 50%;
+	text-align:center;
+}
+.e1{
+	width: 50%;
+	color: #2874A6;
+	border-bottom: solid 2px #2874A6;
+}
+.ss{
+	margin: 0;
+	padding: 0;
+}

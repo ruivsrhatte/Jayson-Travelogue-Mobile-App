@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <!-- style -->
+        <link rel="stylesheet" type="text/css" href="../css/about_app.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-reboot.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-reboot.min.css">
+        <!-- javacript -->
+        <script type="text/javascript" src="../js/drawer.js"></script>
+        <script type="text/javascript" src="../js/laod1.js"></script>
+        <script type="text/javascript" src="../js/bootstrap/bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="../js/bootstrap/bootstrap.bundle.js.map"></script>
+        <script type="text/javascript" src="../js/bootstrap/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap/bootstrap.bundle.min.js.map"></script>
+        <script type="text/javascript" src="../js/bootstrap/bootstrap.js"></script>
+        <script type="text/javascript" src="../js/bootstrapbootstrap.js.map"></script>
+        <script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap/bootstrap.min.js.map"></script>
+        <script type="text/javascript" src="../cordova.js"></script>
+        <style type="text/css">
+
+        </style>
+        <title>Feedback</title>
+    </head>
+    <body style="background-color: #D5D8DC;">
+        <div class="" >
+            <div style="" class="navbar navbar-expand-lg badge-dark position-fixed sticky-top position-sticky navbar navbar-expand-lg badge-dark sticky-top position-sticky">
+                <a href="../pages/about_app.html"><span class="ripple" style=""><svg fill="#ffffff" width="24" height="24" opacity="1.0" viewBox="0 0 20 20"><path d="M12.452 4.516c.446.436.48 1.043 0 1.576L8.705 10l3.747 3.908c.48.533.446 1.14 0 1.574-.445.436-1.197.408-1.615 0-.418-.406-4.502-4.695-4.502-4.695a1.095 1.095 0 0 1 0-1.576s4.084-4.286 4.502-4.694c.418-.41 1.17-.436 1.615 0z"/></svg></span></a>
+                <span class="">Compose Feedback</span>
+                <a href="../pages/about_app.html"><span class="" title="About App"><svg fill="#757575" opacity="1.0" width="24" height="24" viewBox="0 0 24 24"><path d="M12.984 9V6.984h-1.969V9h1.969zm0 8.016v-6h-1.969v6h1.969zm-.984-15c5.531 0 9.984 4.453 9.984 9.984S17.531 21.984 12 21.984 2.016 17.531 2.016 12 6.469 2.016 12 2.016z"/></svg></span></a>
+            </div>
+
+            <div class="">
+                <div class="">
+                    <form style="padding: 10px;" class="navbar-nav">
+                        <span></span>
+                        <span style="padding: 5px;">From</span>
+                        <input type="text" style="margin:0 10px;border-radius: 8px;border: 1px;padding: 5px;" placeholder="Enter Email address" name="" required="required">
+                        <span style="padding: 5px;">To</span>
+                        <input type="text" style="margin:0 10px;border-radius: 8px;border: 1px;padding: 5px;" placeholder="" value="developer@travelligao.com" name="" required="required">
+                        <span class="" style="padding: 5px;">Subject</span>
+                        <input type="text" style="margin:0 10px;border-radius: 8px;border: 1px;padding: 5px;" name="" required="required">
+                        <span style="padding: 5px;">Upload screenshot</span>
+                        <textarea placeholder="Compose Email ..." style="margin:0 10px;border-radius: 8px;border: 1px;padding: 5px;" required="required"></textarea>
+                        
+                        <input class="btn-primary btn" style="margin: 10px;font-weight: bold;" type="Submit" value="Submit" name="">
+                    </form>
+                </div>
+            </div>       
+        
+        
+        </div>
+
+
+    </body>
+</html>
